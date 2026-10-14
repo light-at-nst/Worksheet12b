@@ -29,9 +29,8 @@ def init():
 
     if word:
         c=0
-        w=word.lower()
         for line in lines:
-            c += line.lower().count(w)
+            c += line.lower().count(word)
         print(f"Occurences of {word}: {c}")
 
 
