@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 from collections import Counter
 
@@ -20,8 +22,8 @@ def init():
             counts[key] += 1
 
     print("Top 5:\n")
-    for item,n in counts.most_common(5):
-        print(item,n)
+    for item, n in counts.most_common(5):
+        print(item, n)
 
 
 if __name__=='__main__':
